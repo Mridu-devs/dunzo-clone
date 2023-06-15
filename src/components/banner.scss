@@ -1,0 +1,13 @@
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  img {
+    height: 430px;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}

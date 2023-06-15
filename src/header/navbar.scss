@@ -1,0 +1,45 @@
+.navbar {
+  background-color: white;
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+
+  .sub-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(23, 30, 48);
+    /* background-color: aqua; */
+
+    .nav-img {
+      width: 122px;
+      height: 28px;
+    }
+
+    .signin-button {
+      cursor: pointer;
+      font-size: 14px;
+      color: rgb(255, 255, 255);
+      background: rgb(0, 210, 144);
+      padding: 8px 20px;
+      border-radius: 30px;
+      font-weight: bold;
+      border: none;
+    }
+
+    .icon {
+      height: 24px;
+      width: 28px;
+    }
+
+    .hovergreen:hover {
+      color: rgb(0, 210, 144);
+      cursor: pointer;
+    }
+  }
+}
