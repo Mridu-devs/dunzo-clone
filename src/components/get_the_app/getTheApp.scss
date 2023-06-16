@@ -1,0 +1,55 @@
+.getTheApp {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(
+    -180deg,
+    rgb(255, 255, 255),
+    rgb(255, 255, 255) 30%,
+    rgb(240, 242, 247) 15%,
+    rgb(240, 242, 247) 85%
+  );
+
+  h4,
+  p {
+    margin: 0;
+  }
+  .container {
+    width: 82%;
+    display: flex;
+    align-items: center;
+
+    .left {
+      width: 40%;
+      display: flex;
+      justify-content: flex-end;
+      .mobileImage {
+        width: 205px;
+        height: 237px;
+      }
+    }
+    .right {
+      width: 60%;
+      margin-left: 20px;
+      margin-top: 80px;
+      .heading {
+        font-style: normal;
+        font-size: 20px;
+        margin-bottom: 16px;
+        opacity: 0.9;
+        font-weight: 800;
+        .para {
+          font-weight: 600;
+          color: rgb(23, 30, 48);
+          line-height: normal;
+          letter-spacing: normal;
+        }
+      }
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+}

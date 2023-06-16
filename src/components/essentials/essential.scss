@@ -1,0 +1,48 @@
+.essential {
+  width: 100%;
+  background-color: rgb(247, 253, 250);
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 81%;
+
+    .images-container {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .bigcard {
+      width: 244px;
+      height: 180px;
+      border-radius: 10px;
+    }
+    .smallcards-container {
+      margin-top: 20px;
+      display: flex;
+      column-gap: 15px;
+      .smallCard {
+        font-size: 13px;
+        font-weight: 600;
+        background-color: rgb(255, 255, 255);
+        border-radius: 4px;
+        padding: 23px 14px 14px;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 7px;
+        display: flex;
+        flex-direction: column;
+        width: 120px;
+        row-gap: 10px;
+      }
+      .smallCardImage {
+        height: 40px;
+        width: 40px;
+      }
+    }
+  }
+}

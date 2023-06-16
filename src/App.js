@@ -1,4 +1,7 @@
-import Banner from "./components/Banner";
+import Banner from "./components/banner/Banner";
+import Essential from "./components/essentials/Essential";
+import GetTheApp from "./components/get_the_app/GetTheApp";
+import TopPicks from "./components/top picks/TopPicks";
 import Navbar from "./header/Navbar";
 import Homepage from "./screens/homepage/Homepage";
 
@@ -8,6 +11,9 @@ function App() {
       <Navbar />
       <Homepage />
       <Banner />
+      <Essential />
+      <TopPicks />
+      <GetTheApp />
     </>
   );
 }
